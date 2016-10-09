@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>System call - Wikipedia, the free encyclopedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"System_call","wgTitle":"System call","wgCurRevisionId":733859332,"wgRevisionId":733859332,"wgArticleId":102908,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from January 2013","All articles with unsourced statements","Articles with unsourced statements from April 2016","Operating system technology","Application programming interfaces","System calls"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"System_call","wgRelevantArticleId":102908,"wgRequestId":"V-k5TQpAME4AAGwTKF8AAAAP","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikibaseItemId":"Q722192","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.tmh.thumbnail.styles":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.gadget.ReferenceTooltips%2Cfeatured-articles-links%2Cteahouse%7Cext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.28.0-wmf.21"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/System_call"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=System_call&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=System_call&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/System_call"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-System_call rootpage-System_call skin-vector action-view feature-footer-v2">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">System call</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div role="note" class="hatnote">Not to be confused with <a href="/wiki/System_command" class="mw-redirect" title="System command">system command</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="/wiki/File:Linux_kernel_interfaces.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Linux_kernel_interfaces.svg/300px-Linux_kernel_interfaces.svg.png" width="300" height="225" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Linux_kernel_interfaces.svg/450px-Linux_kernel_interfaces.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/68/Linux_kernel_interfaces.svg/600px-Linux_kernel_interfaces.svg.png 2x" data-file-width="1440" data-file-height="1080" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Linux_kernel_interfaces.svg" class="internal" title="Enlarge"></a></div>
+A high-level overview of the Linux kernel's system call interface, which handles communication between its various components and the <a href="/wiki/Userspace" class="mw-redirect" title="Userspace">userspace</a></div>
+</div>
+</div>
+<p>In <a href="/wiki/Computing" title="Computing">computing</a>, a <b>system call</b> is the programmatic way in which a <a href="/wiki/Computer_program" title="Computer program">computer program</a> requests a service from the <a href="/wiki/Kernel_(computing)" class="mw-redirect" title="Kernel (computing)">kernel</a> of the <a href="/wiki/Operating_system" title="Operating system">operating system</a> it is executed on. This may include hardware-related services (for example, accessing a <a href="/wiki/Hard_disk_drive" title="Hard disk drive">hard disk drive</a>), creation and execution of new <a href="/wiki/Process_(computing)" title="Process (computing)">processes</a>, and communication with integral <a href="/wiki/Kernel_service" class="mw-redirect" title="Kernel service">kernel services</a> such as <a href="/wiki/Process_scheduling" class="mw-redirect" title="Process scheduling">process scheduling</a>. System calls provide an essential interface between a process and the operating system.</p>
+<p>In most systems, system calls are possible to be made only from <a href="/wiki/Userspace" class="mw-redirect" title="Userspace">userspace</a> processes, while in some systems, <a href="/wiki/OS/360_and_successors" title="OS/360 and successors">OS/360 and successors</a> for example, privileged system code also issues system calls.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Privileges"><span class="tocnumber">1</span> <span class="toctext">Privileges</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#The_library_as_an_intermediary"><span class="tocnumber">2</span> <span class="toctext">The library as an intermediary</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Examples_and_tools"><span class="tocnumber">3</span> <span class="toctext">Examples and tools</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Typical_implementations"><span class="tocnumber">4</span> <span class="toctext">Typical implementations</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Categories_of_system_calls"><span class="tocnumber">5</span> <span class="toctext">Categories of system calls</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Processor_mode_and_context_switching"><span class="tocnumber">6</span> <span class="toctext">Processor mode and context switching</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Privileges">Privileges</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=1" title="Edit section: Privileges">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The <a href="/wiki/Instruction_set" title="Instruction set">architecture</a> of most modern processors, with the exception of some embedded systems, involves a <a href="/wiki/CPU_modes" title="CPU modes">security model</a>. For example, the <i><a href="/wiki/Ring_(computer_security)" class="mw-redirect" title="Ring (computer security)">rings</a></i> model specifies multiple privilege levels under which software may be executed: a program is usually limited to its own <a href="/wiki/Address_space" title="Address space">address space</a> so that it cannot access or modify other running programs or the operating system itself, and is usually prevented from directly manipulating hardware devices (e.g. the <a href="/wiki/Frame_buffer" class="mw-redirect" title="Frame buffer">frame buffer</a> or <a href="/wiki/Computer_network" title="Computer network">network</a> devices).</p>
+<p>However, many normal applications obviously need access to these components, so system calls are made available by the operating system to provide well defined, safe implementations for such operations. The operating system executes at the highest level of privilege, and allows applications to request services via system calls, which are often initiated via <a href="/wiki/Interrupt" title="Interrupt">interrupts</a>. An interrupt automatically puts the CPU into some elevated privilege level, and then passes control to the kernel, which determines whether the calling program should be granted the requested service. If the service is granted, the kernel executes a specific set of instructions over which the calling program has no direct control, returns the privilege level to that of the calling program, and then returns control to the calling program.</p>
+<h2><span class="mw-headline" id="The_library_as_an_intermediary">The library as an intermediary</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=2" title="Edit section: The library as an intermediary">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Generally, systems provide a <a href="/wiki/Library_(computing)" title="Library (computing)">library</a> or <a href="/wiki/API" class="mw-redirect" title="API">API</a> that sits between normal programs and the operating system. On <a href="/wiki/Unix-like" title="Unix-like">Unix-like</a> systems, that API is usually part of an implementation of the <a href="/wiki/C_standard_library" title="C standard library">C library</a> (libc), such as <a href="/wiki/Glibc" class="mw-redirect" title="Glibc">glibc</a>, that provides <a href="/wiki/Wrapper_function" title="Wrapper function">wrapper functions</a> for the system calls, often named the same as the system calls they invoke. On <a href="/wiki/Windows_NT" title="Windows NT">Windows NT</a>, that API is part of the <a href="/wiki/Native_API" title="Native API">Native API</a>, in the <tt>ntdll.dll</tt> library; this is an undocumented API used by implementations of the regular <a href="/wiki/Windows_API" title="Windows API">Windows API</a> and directly used by some system programs on Windows. The library's wrapper functions expose an ordinary function <a href="/wiki/Calling_convention" title="Calling convention">calling convention</a> (a <a href="/wiki/Subroutine" title="Subroutine">subroutine</a> call on the <a href="/wiki/Assembly_language" title="Assembly language">assembly</a> level) for using the system call, as well as making the system call more <a href="/wiki/Modularity" title="Modularity">modular</a>. Here, the primary function of the wrapper is to place all the arguments to be passed to the system call in the appropriate <a href="/wiki/Processor_register" title="Processor register">processor registers</a> (and maybe on the <a href="/wiki/Call_stack" title="Call stack">call stack</a> as well), and also setting a unique system call number for the kernel to call. In this way the library, which exists between the OS and the application, increases <a href="/wiki/Software_portability" title="Software portability">portability</a>.</p>
+<p>The call to the library function itself does not cause a switch to <a href="/wiki/Kernel_mode" class="mw-redirect" title="Kernel mode">kernel mode</a> (if the execution was not already in kernel mode) and is usually a normal <a href="/wiki/Subroutine_call" class="mw-redirect" title="Subroutine call">subroutine call</a> (using, for example, a "CALL" assembly instruction in some <a href="/wiki/Instruction_set_architecture" class="mw-redirect" title="Instruction set architecture">Instruction set architectures</a> (ISAs)). The actual system call does transfer control to the kernel (and is more implementation-dependent and platform-dependent than the library call abstracting it). For example, in <a href="/wiki/Unix-like" title="Unix-like">Unix-like</a> systems, <code>fork</code> and <code>execve</code> are C library functions that in turn execute instructions that invoke the <code>fork</code> and <code>exec</code> system calls. Making the system call directly in the <a href="/wiki/Application_code" class="mw-redirect" title="Application code">application code</a> is more complicated and may require embedded assembly code to be used (in <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> and <a href="/wiki/C%2B%2B" title="C++">C++</a>) as well as knowledge of the low-level binary interface for the system call operation, which may be subject to change over time and thus not be part of the <a href="/wiki/Application_binary_interface" title="Application binary interface">application binary interface</a>; the library functions are meant to abstract this away.</p>
+<p>On <a href="/wiki/Exokernel" title="Exokernel">exokernel</a> based systems, the library is especially important as an intermediary. On exokernels, libraries shield user applications from the very low level kernel <a href="/wiki/Application_programming_interface" title="Application programming interface">API</a>, and provide <a href="/wiki/Abstraction_(computer_science)" class="mw-redirect" title="Abstraction (computer science)">abstractions</a> and <a href="/wiki/Resource_(computer_science)" class="mw-redirect" title="Resource (computer science)">resource</a> management.</p>
+<p>IBM operating systems descended from <a href="/wiki/OS/360_and_successors" title="OS/360 and successors">OS/360</a> and <a href="/wiki/DOS/360_and_successors" title="DOS/360 and successors">DOS/360</a>, including <a href="/wiki/Z/OS" title="Z/OS">z/OS</a> and <a href="/wiki/VSE_(operating_system)" title="VSE (operating system)">z/VSE</a>, implement system calls through a library of assembly language <a href="/wiki/Macro_(computer_science)" title="Macro (computer science)">macros</a>. This reflects their origin at a time when programming in assembly language was more common than <a href="/wiki/High-level_programming_language" title="High-level programming language">high-level language</a> usage. IBM system calls are therefore not directly executable by high-level language programs, but require a callable assembly language wrapper subroutine.</p>
+<h2><span class="mw-headline" id="Examples_and_tools">Examples and tools</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=3" title="Edit section: Examples and tools">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>On <a href="/wiki/Unix" title="Unix">Unix</a>, <a href="/wiki/Unix-like" title="Unix-like">Unix-like</a> and other <a href="/wiki/POSIX" title="POSIX">POSIX</a>-compliant operating systems, popular system calls are <code><a href="/wiki/Open_(system_call)" title="Open (system call)">open</a></code>, <code><a href="/wiki/Read_(system_call)" title="Read (system call)">read</a></code>, <code><a href="/wiki/Write_(system_call)" title="Write (system call)">write</a></code>, <code><a href="/wiki/Close_(system_call)" title="Close (system call)">close</a></code>, <code><a href="/wiki/Wait_(system_call)" title="Wait (system call)">wait</a></code>, <code><a href="/wiki/Exec_(operating_system)" class="mw-redirect" title="Exec (operating system)">exec</a></code>, <code><a href="/wiki/Fork_(operating_system)" class="mw-redirect" title="Fork (operating system)">fork</a></code>, <code><a href="/wiki/Exit_(operating_system)" class="mw-redirect" title="Exit (operating system)">exit</a></code>, and <code><a href="/wiki/Kill_(Unix)" class="mw-redirect" title="Kill (Unix)">kill</a></code>. Many modern operating systems have hundreds of system calls. For example, <a href="/wiki/Linux_kernel" title="Linux kernel">Linux</a> and <a href="/wiki/OpenBSD" title="OpenBSD">OpenBSD</a> each have over 300 different calls,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup><sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> <a href="/wiki/NetBSD" title="NetBSD">NetBSD</a> has close to 500,<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> <a href="/wiki/FreeBSD" title="FreeBSD">FreeBSD</a> has over 500,<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup> Windows&#160;7 has close to 700,<sup class="noprint Inline-Template Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (April 2016)">citation needed</span></a></i>]</sup> while <a href="/wiki/Plan_9_from_Bell_Labs" title="Plan 9 from Bell Labs">Plan 9</a> has 51.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup></p>
+<p>Tools such as <a href="/wiki/Strace" title="Strace">strace</a> and <a href="/wiki/Truss_(Unix)" title="Truss (Unix)">truss</a> allow a process to execute from start and report all system calls the process invokes, or can attach to an already running process and intercept any system call made by said process if the operation does not violate the permissions of the user. This special ability of the program is usually also implemented with a system call, e.g. strace is implemented with <a href="/wiki/Ptrace" title="Ptrace">ptrace</a> or system calls on files in <a href="/wiki/Procfs" title="Procfs">procfs</a>.</p>
+<h2><span class="mw-headline" id="Typical_implementations">Typical implementations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=4" title="Edit section: Typical implementations">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Implementing system calls requires a control transfer from user space to kernel space, which involves some sort of architecture-specific feature. A typical way to implement this is to use a software <a href="/wiki/Interrupt" title="Interrupt">interrupt</a> or <a href="/wiki/Trap_(computing)" title="Trap (computing)">trap</a>. Interrupts transfer control to the operating system <a href="/wiki/Kernel_(computing)" class="mw-redirect" title="Kernel (computing)">kernel</a> so software simply needs to set up some register with the system call number needed, and execute the software interrupt.</p>
+<p>This is the only technique provided for many <a href="/wiki/RISC" class="mw-redirect" title="RISC">RISC</a> processors, but <a href="/wiki/Complex_instruction_set_computer" class="mw-redirect" title="Complex instruction set computer">CISC</a> architectures such as <a href="/wiki/X86" title="X86">x86</a> support additional techniques. For example, the x86 <a href="/wiki/Instruction_set" title="Instruction set">instruction set</a> contains the instructions SYSCALL/SYSRET and SYSENTER/SYSEXIT (these two mechanisms were independently created by AMD and Intel, respectively, but in essence they do the same thing). These are "fast" control transfer instructions that are designed to quickly transfer control to the kernel for a system call without the overhead of an interrupt.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7">[7]</a></sup> <a href="/wiki/Linux" title="Linux">Linux</a> 2.5 began using this on the <a href="/wiki/X86" title="X86">x86</a>, where available; formerly it used the INT instruction, where the system call number was placed in the EAX <a href="/wiki/Processor_register" title="Processor register">register</a> before <a href="/wiki/INT_(x86_instruction)" title="INT (x86 instruction)">interrupt</a> 0x80 was executed.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup><sup id="cite_ref-9" class="reference"><a href="#cite_note-9">[9]</a></sup></p>
+<p>An older <a href="/wiki/X86" title="X86">x86</a> mechanism is the <a href="/wiki/Call_gate" class="mw-redirect" title="Call gate">call gate</a>. It allows a program to call a kernel function directly using a safe control transfer mechanism, which the operating system sets up in advance. This approach has been unpopular, presumably due to the requirement of a far call (a call to a procedure located in a different segment than the current code segment<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup>) which uses <a href="/wiki/X86_memory_segmentation" title="X86 memory segmentation">x86 memory segmentation</a> and the resulting lack of <a href="/wiki/Portability_(software)" class="mw-redirect" title="Portability (software)">portability</a> it causes, and existence of the faster instructions mentioned above.</p>
+<p>For <a href="/wiki/IA-64" title="IA-64">IA-64</a> architecture, EPC (Enter Privileged Code) instruction is used. The first eight system call arguments are passed in registers, and the rest are passed on the stack.</p>
+<p>In the <a href="/wiki/IBM_System/360" title="IBM System/360">IBM System/360</a> mainframe family, a <a href="/wiki/Supervisor_Call_instruction" title="Supervisor Call instruction">Supervisor Call instruction</a> implements a system call for legacy facilities; the Program Call (PC) instruction is used for newer facilities. In particular, PC is used when the caller might be in <a href="/wiki/Service_Request_Block" title="Service Request Block">SRB</a> mode.</p>
+<h2><span class="mw-headline" id="Categories_of_system_calls">Categories of system calls</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=5" title="Edit section: Categories of system calls">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>System calls can be roughly grouped into five major categories:</p>
+<ol>
+<li>Process Control
+<ul>
+<li><a href="/wiki/Loader_(computing)" title="Loader (computing)">load</a></li>
+<li><a href="/wiki/Exec_(operating_system)" class="mw-redirect" title="Exec (operating system)">execute</a></li>
+<li>end, abort</li>
+<li>create process (for example, <code><a href="/wiki/Fork_(operating_system)" class="mw-redirect" title="Fork (operating system)">fork</a></code> on Unix-like systems, or <code>NtCreateProcess</code> in the <a href="/wiki/Windows_NT" title="Windows NT">Windows NT</a> <a href="/wiki/Native_API" title="Native API">Native API</a>)</li>
+<li><a href="/wiki/Kill_(command)" title="Kill (command)">terminate process</a></li>
+<li>get/set process attributes</li>
+<li><a href="/wiki/Wait_(operating_system)" class="mw-redirect" title="Wait (operating system)">wait</a> for time, wait event, <a href="/wiki/Signal_(computing)" class="mw-redirect" title="Signal (computing)">signal</a> event</li>
+<li><a href="/wiki/Dynamic_memory_allocation" class="mw-redirect" title="Dynamic memory allocation">allocate</a>, <a href="/wiki/Garbage_collection_(computer_science)" title="Garbage collection (computer science)">free</a> memory</li>
+</ul>
+</li>
+<li>File management
+<ul>
+<li>create file, delete file</li>
+<li>open, close</li>
+<li>read, write, reposition</li>
+<li>get/set file attributes</li>
+</ul>
+</li>
+<li>Device Management
+<ul>
+<li>request device, release device</li>
+<li>read, write, reposition</li>
+<li>get/set device attributes</li>
+<li>logically attach or detach devices</li>
+</ul>
+</li>
+<li>Information Maintenance
+<ul>
+<li>get/set time or date</li>
+<li>get/set system data</li>
+<li>get/set process, file, or device attributes</li>
+</ul>
+</li>
+<li>Communication
+<ul>
+<li>create, delete communication connection</li>
+<li>send, receive messages</li>
+<li>transfer status information</li>
+<li>attach or detach remote devices</li>
+</ul>
+</li>
+</ol>
+<h2><span class="mw-headline" id="Processor_mode_and_context_switching">Processor mode and context switching</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=6" title="Edit section: Processor mode and context switching">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>System calls in most <a href="/wiki/Unix-like" title="Unix-like">Unix-like</a> systems are processed in kernel mode, which is accomplished by changing the processor execution mode to a more privileged one, but no <i>process</i> <a href="/wiki/Context_switch" title="Context switch">context switch</a> is necessary&#160;–  although a <i>privilege</i> context switch does occur. The hardware sees the world in terms of the execution mode according to the processor status register, and processes are an abstraction provided by the operating system. A system call does not generally require a context switch to another process; instead, it is processed in the context of whichever process invoked it.<sup id="cite_ref-Bach1986pp15-16_11-0" class="reference"><a href="#cite_note-Bach1986pp15-16-11">[11]</a></sup><sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup></p>
+<p>In a multithreaded process system calls can be made from multiple threads. The handling of such calls is entirely dependent on the design of the specific <a href="/wiki/Operating_system" title="Operating system">operating system</a>. The following list shows typical models followed by kernels:<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup><sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup></p>
+<ul>
+<li><i>Many-to-one</i> model: All system calls from any user thread in a process are handled by a single kernel-level thread. This model has a serious drawback&#160;–  any blocking system call (like awaiting input from user) can freeze all the other threads. Also, since only one thread can access the kernel at a time, this model cannot utilize multiple cores of processor.</li>
+<li><i>One-to-one</i> model: Every user thread gets attached to a distinct kernel-level thread during a system call. This model solves the above problem of blocking system calls. It is found in all major distribution of <a href="/wiki/Linux" title="Linux">Linux</a>, recent <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Windows</a> and <a href="/wiki/Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a> versions.</li>
+<li><i>Many-to-many</i> model: In this model a pool of user threads is mapped to a pool of kernel threads. All system calls from a user thread pool are handled by the threads in their corresponding kernel thread pool</li>
+<li><i>Hybrid</i> model: This model implements both many to many and one to one model depending upon choice made by the kernel. This is found in old versions of <a href="/wiki/IRIX" title="IRIX">IRIX</a>, <a href="/wiki/HP-UX" title="HP-UX">HP-UX</a> and <a href="/wiki/Solaris_(operating_system)" title="Solaris (operating system)">Solaris</a>.</li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Linux_kernel_API" class="mw-redirect" title="Linux kernel API">Linux kernel API</a></li>
+<li><a href="/wiki/Supervisor_Call_instruction" title="Supervisor Call instruction">Supervisor Call instruction</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">IBM (March 1967). "Writing SVC Routines". <a rel="nofollow" class="external text" href="http://bitsavers.org/pdf/ibm/360/os/R01-08/C28-6550-2_OSsysPrmg_Mar67.pdf"><i>IBM System/360 Operating System System Programmer's Guide</i></a> <span style="font-size:85%;">(PDF)</span>. Third Edition. pp.&#160;32–36. C28-6550-2.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.atitle=Writing+SVC+Routines&amp;rft.au=IBM&amp;rft.btitle=IBM+System%2F360+Operating+System+System+Programmer%27s+Guide&amp;rft.date=1967-03&amp;rft.genre=bookitem&amp;rft_id=http%3A%2F%2Fbitsavers.org%2Fpdf%2Fibm%2F360%2Fos%2FR01-08%2FC28-6550-2_OSsysPrmg_Mar67.pdf&amp;rft.pages=32-36&amp;rft.series=Third+Edition&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://man7.org/linux/man-pages/man2/syscalls.2.html">"syscalls(2) - Linux manual page"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=syscalls%282%29+-+Linux+manual+page&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fman7.org%2Flinux%2Fman-pages%2Fman2%2Fsyscalls.2.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web">OpenBSD (2013-09-14). <a rel="nofollow" class="external text" href="http://bxr.su/OpenBSD/sys/kern/syscalls.c">"System call names (kern/syscalls.c)"</a>. <i>BSD Cross Reference</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.atitle=System+call+names+%28kern%2Fsyscalls.c%29&amp;rft.au=OpenBSD&amp;rft.date=2013-09-14&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fbxr.su%2FOpenBSD%2Fsys%2Fkern%2Fsyscalls.c&amp;rft.jtitle=BSD+Cross+Reference&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">NetBSD (2013-10-17). <a rel="nofollow" class="external text" href="http://bxr.su/NetBSD/sys/kern/syscalls.c">"System call names (kern/syscalls.c)"</a>. <i>BSD Cross Reference</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.atitle=System+call+names+%28kern%2Fsyscalls.c%29&amp;rft.au=NetBSD&amp;rft.date=2013-10-17&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fbxr.su%2FNetBSD%2Fsys%2Fkern%2Fsyscalls.c&amp;rft.jtitle=BSD+Cross+Reference&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://fxr.watson.org/fxr/source/kern/syscalls.c">"FreeBSD syscalls.c, the list of syscall names and IDs"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=FreeBSD+syscalls.c%2C+the+list+of+syscall+names+and+IDs&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ffxr.watson.org%2Ffxr%2Fsource%2Fkern%2Fsyscalls.c&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://plan9.bell-labs.com/sources/plan9/sys/src/libc/9syscall/sys.h">"Plan 9 sys.h, the list of syscall names and IDs"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=Plan+9+sys.h%2C+the+list+of+syscall+names+and+IDs&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fplan9.bell-labs.com%2Fsources%2Fplan9%2Fsys%2Fsrc%2Flibc%2F9syscall%2Fsys.h&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://wiki.osdev.org/SYSENTER">"SYSENTER (OSDev wiki)"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=SYSENTER+%28OSDev+wiki%29&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwiki.osdev.org%2FSYSENTER&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web">Anonymous (2002-12-19). <a rel="nofollow" class="external text" href="http://kerneltrap.org/node/531">"Linux 2.5 gets vsyscalls, sysenter support"</a>. <i><a href="/wiki/KernelTrap" title="KernelTrap">KernelTrap</a></i><span class="reference-accessdate">. Retrieved <span class="nowrap">2008-01-01</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.atitle=Linux+2.5+gets+vsyscalls%2C+sysenter+support&amp;rft.au=Anonymous&amp;rft.date=2002-12-19&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fkerneltrap.org%2Fnode%2F531&amp;rft.jtitle=KernelTrap&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web">Manu Garg (2006). <a rel="nofollow" class="external text" href="http://articles.manugarg.com/systemcallinlinux2_6.html">"Sysenter Based System Call Mechanism in Linux 2.6"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.au=Manu+Garg&amp;rft.btitle=Sysenter+Based+System+Call+Mechanism+in+Linux+2.6&amp;rft.date=2006&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Farticles.manugarg.com%2Fsystemcallinlinux2_6.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://x86.renejeschke.de/html/file_module_x86_id_26.html">"Liberation: x86 Instruction Set Reference"</a>. <i>renejeschke.de</i><span class="reference-accessdate">. Retrieved <span class="nowrap">4 July</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.atitle=Liberation%3A+x86+Instruction+Set+Reference&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fx86.renejeschke.de%2Fhtml%2Ffile_module_x86_id_26.html&amp;rft.jtitle=renejeschke.de&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Bach1986pp15-16-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-Bach1986pp15-16_11-0">^</a></b></span> <span class="reference-text">Bach, Maurice J. (1986), <i>The Design of the UNIX Operating System</i>, Prentice Hall, pp. 15-16.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web">Elliot, John (2011). <a rel="nofollow" class="external text" href="http://www.progclub.org/pipermail/list/2011-October/000150.html">"Discussion of system call implementation at ProgClub including quote from Bach 1986"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.aufirst=John&amp;rft.aulast=Elliot&amp;rft.btitle=Discussion+of+system+call+implementation+at+ProgClub+including+quote+from+Bach+1986&amp;rft.date=2011&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.progclub.org%2Fpipermail%2Flist%2F2011-October%2F000150.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/4_Threads.html">"Threads"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=Threads&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.cs.uic.edu%2F~jbell%2FCourseNotes%2FOperatingSystems%2F4_Threads.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://kevinmarquet.net/wp-content/uploads/threading.pdf">"Threading Models"</a> <span style="font-size:85%;">(PDF)</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ASystem+call&amp;rft.btitle=Threading+Models&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fkevinmarquet.net%2Fwp-content%2Fuploads%2Fthreading.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=System_call&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://syscalls.kernelgrok.com/">Linux system call reference</a> Updated system call reference for <a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a> 2.6, includes register and data structure references</li>
+<li><a rel="nofollow" class="external text" href="http://fxr.watson.org/fxr/source/kern/syscalls.master">A list of modern Unix-like system calls</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.makelinux.net/kernel_map">Interactive map of Linux kernel</a></li>
+<li><a rel="nofollow" class="external text" href="http://docs.cs.up.ac.za/programming/asm/derick_tut/syscalls.html">Linux system calls</a>&#160;–  system calls for <a href="/wiki/Linux_kernel" title="Linux kernel">Linux kernel</a> 2.2, with <a href="/wiki/IA-32" title="IA-32">IA-32</a> <a href="/wiki/Calling_convention" title="Calling convention">calling conventions</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.tldp.org/LDP/khg/HyperNews/get/syscall/syscall86.html">How System Calls Work on Linux/i86</a> (1996, based on the 1993 0.99.2 kernel)</li>
+<li><a rel="nofollow" class="external text" href="http://articles.manugarg.com/systemcallinlinux2_6.html">Sysenter Based System Call Mechanism in Linux 2.6</a> (2006)</li>
+<li><a rel="nofollow" class="external text" href="http://www.ibm.com/developerworks/linux/library/l-system-calls"><i>Kernel command using Linux system calls</i></a>, IBM developerWorks</li>
+<li>Choudhary, Amit; <a rel="nofollow" class="external text" href="http://tldp.org/HOWTO/html_single/Implement-Sys-Call-Linux-2.6-i386">HOWTO for Implementing a System Call on Linux 2.6</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.usenix.org/publications/login/2006-04/openpdfs/herder.pdf">Modular system programming on Minix 3</a></li>
+<li><a rel="nofollow" class="external text" href="http://task3.cc/projects/bd-shell/">A simple open Unix Shell in C language</a>&#160;–  examples on System Calls under Unix</li>
+<li><a rel="nofollow" class="external text" href="http://netcode.cz/img/83/nativeapi.html">Inside the Native API</a>&#160;–  <a href="/wiki/Windows_NT" title="Windows NT">Windows NT</a> <a href="/wiki/Native_API" title="Native API">Native API</a>, including system calls</li>
+<li>Gulbrandsen, John; <a rel="nofollow" class="external text" href="http://www.codeguru.com/cpp/misc/misc/system/article.php/c8223/System-Call-Optimization-with-the-SYSENTER-Instruction.htm"><i>System Call Optimization with the SYSENTER Instruction</i></a>, CodeGuru.com, 8 October 2004</li>
+</ul>
+<p><span class="citation foldoc">This article is based on material taken from the <a href="/wiki/Free_On-line_Dictionary_of_Computing" title="Free On-line Dictionary of Computing">Free On-line Dictionary of Computing</a> prior to 1 November 2008 and incorporated under the "relicensing" terms of the <a href="/wiki/GNU_Free_Documentation_License" title="GNU Free Documentation License">GFDL</a>, version 1.3 or later.</span></p>
+<div role="navigation" class="navbox" aria-labelledby="Application_binary_interface_.28ABI.29" style="padding:3px">
+<table class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Application_binary_interface" title="Template:Application binary interface"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/w/index.php?title=Template_talk:Application_binary_interface&amp;action=edit&amp;redlink=1" class="new" title="Template talk:Application binary interface (page does not exist)"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Application_binary_interface&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Application_binary_interface_.28ABI.29" style="font-size:114%"><a href="/wiki/Application_binary_interface" title="Application binary interface">Application binary interface</a> (ABI)</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Parts and<br />
+conventions</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Data_structure_alignment" title="Data structure alignment">Alignment</a></li>
+<li><a href="/wiki/Calling_convention" title="Calling convention">Calling convention</a></li>
+<li><a href="/wiki/Call_stack" title="Call stack">Call stack</a></li>
+<li><a href="/wiki/Library_(computing)" title="Library (computing)">Library</a>
+<ul>
+<li><a href="/wiki/Static_library" title="Static library">static</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Machine_code" title="Machine code">Machine code</a></li>
+<li><a href="/wiki/Memory_segmentation" title="Memory segmentation">Memory segmentation</a></li>
+<li><a href="/wiki/Name_mangling" title="Name mangling">Name mangling</a></li>
+<li><a href="/wiki/Object_code" title="Object code">Object code</a></li>
+<li><a href="/wiki/Opaque_pointer" title="Opaque pointer">Opaque pointer</a></li>
+<li><a href="/wiki/Position-independent_code" title="Position-independent code">Position-independent code</a></li>
+<li><a href="/wiki/Register_allocation" title="Register allocation">Register allocation</a></li>
+<li><a href="/wiki/Relocation_(computing)" title="Relocation (computing)">Relocation</a></li>
+<li><strong class="selflink">System call</strong></li>
+<li><a href="/wiki/Virtual_method_table" title="Virtual method table">Virtual method table</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Related topics</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Binary_code_compatibility" title="Binary code compatibility">Binary code compatibility</a></li>
+<li><a href="/wiki/Foreign_function_interface" title="Foreign function interface">Foreign function interface</a></li>
+<li><a href="/wiki/Language_binding" title="Language binding">Language binding</a></li>
+<li><a href="/wiki/Linker_(computing)" title="Linker (computing)">Linker</a>
+<ul>
+<li><a href="/wiki/Dynamic_linker" title="Dynamic linker">dynamic</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Loader_(computing)" title="Loader (computing)">Loader</a></li>
+<li><a href="/wiki/Year_2038_problem" title="Year 2038 problem">Year 2038 problem</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:102908-0!*!0!!en!4!* and timestamp 20161001021544 and revision id 733859332
+ -->
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.log.warn("Gadget \"teahouse\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"ReferenceTooltips\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");mw.log.warn("Gadget \"featured-articles-links\" styles loaded twice. Migrate to type=general. See \u003Chttps://phabricator.wikimedia.org/T42284\u003E.");});</script><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=System_call&amp;oldid=733859332">https://en.wikipedia.org/w/index.php?title=System_call&amp;oldid=733859332</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Operating_system_technology" title="Category:Operating system technology">Operating system technology</a></li><li><a href="/wiki/Category:Application_programming_interfaces" title="Category:Application programming interfaces">Application programming interfaces</a></li><li><a href="/wiki/Category:System_calls" title="Category:System calls">System calls</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Use_dmy_dates_from_January_2013" title="Category:Use dmy dates from January 2013">Use dmy dates from January 2013</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_April_2016" title="Category:Articles with unsourced statements from April 2016">Articles with unsourced statements from April 2016</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=System+call" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=System+call" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/System_call"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:System_call"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/System_call" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=System_call&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=System_call&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/System_call" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/System_call" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=System_call&amp;oldid=733859332" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=System_call&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q722192" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=System_call&amp;id=733859332" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=System+call">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=System+call&amp;returnto=System+call&amp;oldid=733859332&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=System_call&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Crida_de_sistema" title="Crida de sistema – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-cs"><a href="https://cs.wikipedia.org/wiki/Syst%C3%A9mov%C3%A9_vol%C3%A1n%C3%AD" title="Systémové volání – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target">Čeština</a></li><li class="interlanguage-link interwiki-da"><a href="https://da.wikipedia.org/wiki/Systemkald" title="Systemkald – Danish" lang="da" hreflang="da" class="interlanguage-link-target">Dansk</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Systemaufruf" title="Systemaufruf – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-el"><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%AE%CF%83%CE%B7_%CF%83%CF%85%CF%83%CF%84%CE%AE%CE%BC%CE%B1%CF%84%CE%BF%CF%82" title="Κλήση συστήματος – Greek" lang="el" hreflang="el" class="interlanguage-link-target">Ελληνικά</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Llamada_al_sistema" title="Llamada al sistema – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86_%D8%B3%DB%8C%D8%B3%D8%AA%D9%85%DB%8C" title="فراخوان سیستمی – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Appel_syst%C3%A8me" title="Appel système – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%8B%9C%EC%8A%A4%ED%85%9C_%ED%98%B8%EC%B6%9C" title="시스템 호출 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Chiamata_di_sistema" title="Chiamata di sistema – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%A7%D7%A8%D7%99%D7%90%D7%AA_%D7%9E%D7%A2%D7%A8%D7%9B%D7%AA" title="קריאת מערכת – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-mn"><a href="https://mn.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%D0%B9%D0%BD_%D0%B4%D1%83%D1%83%D0%B4%D0%B0%D0%BB%D1%82" title="Системийн дуудалт – Mongolian" lang="mn" hreflang="mn" class="interlanguage-link-target">Монгол</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Systeemaanroep" title="Systeemaanroep – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%B3%E3%83%BC%E3%83%AB" title="システムコール – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-no"><a href="https://no.wikipedia.org/wiki/Systemkall" title="Systemkall – Norwegian" lang="no" hreflang="no" class="interlanguage-link-target">Norsk bokmål</a></li><li class="interlanguage-link interwiki-pl"><a href="https://pl.wikipedia.org/wiki/Wywo%C5%82anie_systemowe" title="Wywołanie systemowe – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target">Polski</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Chamada_de_sistema" title="Chamada de sistema – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ro"><a href="https://ro.wikipedia.org/wiki/Apel_de_sistem" title="Apel de sistem – Romanian" lang="ro" hreflang="ro" class="interlanguage-link-target">Română</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B2%D1%8B%D0%B7%D0%BE%D0%B2" title="Системный вызов – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/J%C3%A4rjestelm%C3%A4kutsu" title="Järjestelmäkutsu – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Systemanrop" title="Systemanrop – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%B2%D0%B8%D0%BA%D0%BB%D0%B8%D0%BA" title="Системний виклик – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8" title="系统调用 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li><li class="uls-p-lang-dummy"><a href="#"></a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="h
